@@ -1,0 +1,73 @@
+body{
+    background: teal;
+    color:white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#header{
+    text-align: center;
+}
+
+#weapons{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;    
+
+}
+
+.weapon{
+    width:48px;
+    height:48px;
+}
+
+#start{display:flex;
+flex-direction: row;
+justify-content:center;
+}
+
+#select{
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    border-radius: 10%;
+    width: 100px;
+    height: 40px;
+    background: blue;
+    padding: 10px;
+    border: none; 
+    margin-top: 10px;
+    margin-right: 10px; }
+
+#startBtn{
+font-weight: bold;    
+font-family: 'Ubuntu', sans-serif;   
+color: white;
+border-radius: 10%;
+width: 80px;
+height: 40px;
+background: blue;
+padding: 10px;
+border: none; 
+margin-top: 10px;   
+}
+
+#game{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#result{
+font-size: 24px;
+text-align: center;    
+}
+
+#pWeapon, #cWeapon{
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+    #game {
+      display: flex;
+      flex-direction: column;
+    }
+}

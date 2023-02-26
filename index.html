@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href ="style.css" rel="stylesheet">
+    <title>Kamień, papier i nożyce</title>
+</head>
+<body>
+<div id="header">
+    <h1>Zagraj w kamień, papier i nożyce!</h1>
+    <h3>Wybierz swoją broń!</h3>
+</div>
+
+<div id="weapons">
+<div><img src="kamień.svg" class="weapon"></div>
+<div><img src="papier.svg" class="weapon"></div>
+<div><img src="nożyce.svg" class="weapon"></div>
+
+</div>
+
+<div id="start"> 
+<select id="select" value="wybierz broń">
+    <option value="kamień">kamień</option>
+    <option value="papier">papier</option>
+    <option value="nożyce">nożyce</option>
+</select>
+
+<button id="startBtn">Zagraj!</button>
+</div>
+
+<div id="game">
+<p id="pWeapon"></p>
+<p id="cWeapon"></p>
+</div>
+
+<p id="result">Wynik: </p>
+
+<p id="demo"></p>
+
+<script src="polski.js"></script>    
+</body>
+</html>
